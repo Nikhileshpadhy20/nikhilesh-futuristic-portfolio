@@ -1,0 +1,7 @@
+{
+  "name": "nikhilesh-futuristic-portfolio-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Nikhilesh futuristic portfolio with a real OpenAI-powered AI agent.",
+  "engines": { "node": ">=18" }
+}

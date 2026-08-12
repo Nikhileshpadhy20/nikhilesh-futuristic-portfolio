@@ -1,0 +1,7 @@
+V8 FIX
+The Digital Twin photo was being stretched/cropped by a conflicting global image rule.
+This patch scopes the photo sizing to the Digital Twin avatar stage:
+- keeps the full portrait visible
+- preserves aspect ratio
+- prevents width:100% from overriding the portrait
+- does not change the rest of the portfolio

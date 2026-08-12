@@ -1,0 +1,124 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nikhilesh | Digital World</title><link rel="stylesheet" href="style.css"></head><body>
+
+<!-- V7 Signature Experience -->
+<div class="cursor-orb" aria-hidden="true"></div>
+<div class="scanlines" aria-hidden="true"></div>
+<div class="ambient-grid" aria-hidden="true"></div>
+<div class="boot-screen" id="bootScreen">
+  <div class="boot-core"><span>NP</span></div>
+  <div class="boot-title">NIKHILESH // DIGITAL WORLD</div>
+  <div class="boot-status"><i></i> SYSTEM ONLINE</div>
+  <div class="boot-bar"><b></b></div>
+</div>
+<div class="hud-toast" id="hudToast">SYSTEM READY</div>
+<div class="command-palette" id="commandPalette" aria-hidden="true">
+  <div class="cmd-box">
+    <div class="cmd-head"><span>NP COMMAND CENTER</span><kbd>ESC</kbd></div>
+    <input id="cmdInput" placeholder="Try: projects, skills, resume, contact..." autocomplete="off">
+    <div class="cmd-results" id="cmdResults">
+      <button data-go="home">⌂ Home <small>1</small></button>
+      <button data-go="skills">◈ Skills <small>2</small></button>
+      <button data-go="projects">▣ Projects <small>3</small></button>
+      <button data-go="contact">✉ Contact <small>4</small></button>
+      <button data-go="resume">↳ Resume <small>5</small></button>
+    </div>
+    <p>Press <b>Ctrl / ⌘ + K</b> anytime to open the command center.</p>
+  </div>
+</div>
+<div class="system-readout" id="systemReadout">
+  <span>LIVE SYSTEM</span><b>98.7%</b><i></i><small>LATENCY 12ms</small>
+</div>
+
+<canvas id="space"></canvas><div class="grid"></div>
+<header><a class="brand" href="#home">NP<span>.</span><small>NIKHILESH / DIGITAL WORLD</small></a><nav><a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#skills">SKILLS</a><a href="#projects">PROJECTS</a><a href="#contact">CONTACT</a></nav><button id="sound">◉ SOUND ON</button></header>
+<section class="hero" id="home"><div class="copy"><div class="eyebrow">● SYSTEM ONLINE / CLOUD • DEVOPS • AI</div><small>WELCOME TO MY DIGITAL WORLD</small><h1>Hi, I'm<br><strong>Nikhilesh<span>.</span></strong></h1><h2>Cloud &amp; DevOps Engineer</h2><p>I build scalable cloud infrastructure, automate deployments and explore modern technologies.</p><div class="actions"><button class="primary" id="talk">🎙 TALK TO MY AI</button><a href="#projects">ENTER MY WORLD ↓</a></div><div class="stats"><div><b>8.76</b><small>CGPA</small></div><div><b>4th Year</b><small>B.TECH CSE</small></div><div><b>2027</b><small>GRADUATION</small></div></div></div>
+<div class="scene" id="scene"><div class="portal"><i class="r r1"></i><i class="r r2"></i><i class="r r3"></i><div class="avatar"><img src="nikhilesh-photo.png"><span>● DIGITAL TWIN READY</span></div><label class="node n1">☁ AWS<small>CLOUD</small></label><label class="node n2">◇ DOCKER<small>CONTAINERS</small></label><label class="node n3">✦ K8S<small>ORCHESTRATION</small></label><label class="node n4">⌘ TERRAFORM<small>IaC</small></label></div><div class="console">LIVE CONSOLE <b id="console">READY</b></div></div></section>
+<section class="section" id="about"><label>01 / IDENTITY</label><h2>Not just a portfolio.<br><em>A digital identity.</em></h2><div class="card"><img src="nikhilesh-photo.png"><div><p>I'm a B.Tech Computer Science Engineering student at Centurion University of Technology and Management, focused on Cloud Computing, DevOps and automation.</p><div class="chips"><span>4TH YEAR</span><span>CGPA 8.76</span><span>GRADUATION 2027</span><span>1+ INTERNSHIP</span></div></div></div></section>
+<section class="section" id="skills"><label>02 / TECHNOLOGY MATRIX</label><h2>My technical<br><em>toolkit.</em></h2><div class="tech-universe">
+<div class="tech-core"><i></i><i></i><i></i><b>NP<small>TECH CORE</small></b></div>
+<button data-tech="AWS">☁<strong>AWS</strong><small>CLOUD</small></button>
+<button data-tech="DOCKER">◇<strong>DOCKER</strong><small>CONTAINERS</small></button>
+<button data-tech="KUBERNETES">✦<strong>KUBERNETES</strong><small>ORCHESTRATION</small></button>
+<button data-tech="TERRAFORM">⌘<strong>TERRAFORM</strong><small>INFRASTRUCTURE</small></button>
+<button data-tech="LINUX">⌁<strong>LINUX</strong><small>SYSTEM</small></button>
+<button data-tech="GIT / GITHUB">⌘<strong>GIT / GITHUB</strong><small>VERSION CONTROL</small></button>
+<button data-tech="CI / CD">↗<strong>CI / CD</strong><small>AUTOMATION</small></button>
+<button data-tech="PYTHON / JAVA">λ<strong>PYTHON / JAVA</strong><small>PROGRAMMING</small></button>
+</div></section>
+<section class="section" id="projects"><label>03 / PROJECT LAB</label><h2>Systems I've<br><em>built &amp; explored.</em></h2><div class="projects">
+<button class="project" data-p="cloud"><div class="project-thumb"><img src="projects/cloud-storage.png" alt="Cloud Storage architecture"></div><small>01</small><b>☁</b><h3>Cloud Storage<br>File System</h3><span>AWS / S3 / IAM</span></button>
+<button class="project" data-p="rait"><div class="project-thumb"><img src="projects/rait.png" alt="RAIT AI issue tracker"></div><small>02</small><b>✦</b><h3>RAIT — ResolveAI<br>Issue Tracker</h3><span>AI / AWS / SERVERLESS</span></button>
+<button class="project" data-p="vlan"><div class="project-thumb"><img src="projects/vlan.png" alt="Network segmentation diagram"></div><small>03</small><b>⌘</b><h3>Network Segmentation<br>&amp; VLAN Design</h3><span>VLAN / CISCO / SECURITY</span></button>
+<button class="project" data-p="street"><div class="project-thumb"><img src="projects/streetlight.png" alt="Automated streetlight system"></div><small>04</small><b>ϟ</b><h3>Automated<br>StreetLight Control</h3><span>IOT / OPENMODELICA</span></button></div></section>
+
+
+<section class="universe-section" id="universe">
+  <div class="universe-head">
+    <div>
+      <span class="section-kicker">06 / DIGITAL UNIVERSE</span>
+      <h2>My stack.<br><em>In orbit.</em></h2>
+      <p>Move around the universe and select a technology to inspect it.</p>
+    </div>
+    <div class="universe-status"><i></i> ORBITAL SYSTEM ONLINE</div>
+  </div>
+  <div class="universe-stage" id="universeStage">
+    <div class="stars"></div>
+    <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+    <div class="universe-core">
+      <div class="core-glow"></div>
+      <div class="core-ring"></div>
+      <div class="core-monogram">NP<small>DEVOPS / CLOUD</small></div>
+    </div>
+    <button class="planet p-aws" data-planet="AWS"><b>☁</b><span>AWS</span><small>CLOUD</small></button>
+    <button class="planet p-docker" data-planet="Docker"><b>◇</b><span>DOCKER</span><small>CONTAINERS</small></button>
+    <button class="planet p-k8s" data-planet="Kubernetes"><b>✦</b><span>K8S</span><small>ORCHESTRATION</small></button>
+    <button class="planet p-terraform" data-planet="Terraform"><b>⌘</b><span>TERRAFORM</span><small>IaC</small></button>
+    <button class="planet p-linux" data-planet="Linux"><b>⌁</b><span>LINUX</span><small>SYSTEM</small></button>
+    <button class="planet p-git" data-planet="GitHub"><b>⌘</b><span>GITHUB</span><small>VERSIONING</small></button>
+    <div class="universe-readout" id="universeReadout">SELECT A NODE <b>↗</b></div>
+  </div>
+</section>
+
+<section class="timeline-section" id="journey">
+  <div class="section-kicker">07 / JOURNEY</div>
+  <h2>Building the<br><em>next version.</em></h2>
+  <div class="timeline">
+    <article><span>01</span><b>2023</b><h3>Engineering Begins</h3><p>B.Tech Computer Science Engineering journey starts.</p></article>
+    <article><span>02</span><b>NOW</b><h3>Cloud + DevOps</h3><p>Building projects around AWS, automation, containers and infrastructure.</p></article>
+    <article><span>03</span><b>2027</b><h3>Graduate</h3><p>Target: step into a professional Cloud / DevOps engineering role.</p></article>
+  </div>
+</section>
+
+<section class="signature-section digital-twin-zone" id="digitalTwin">
+  <div class="section-kicker">05 / DIGITAL TWIN</div>
+  <div class="twin-layout">
+    <div class="twin-copy reveal">
+      <span class="eyebrow">NIKHILESH AI // LIVE INTERFACE</span>
+      <h2>Don't just read<br><em>my portfolio.</em><br>talk to it.</h2>
+      <p>Ask about my education, skills, projects, cloud stack, certifications or experience. The portfolio becomes an interactive interface instead of a static page.</p>
+      <div class="twin-actions">
+        <button class="signature-btn" id="openTwin">◉ TALK TO NIKHILESH</button>
+        <button class="ghost-btn" id="runScan">RUN SYSTEM SCAN</button>
+      </div>
+    </div>
+    <div class="twin-console reveal" id="twinConsole">
+      <div class="console-top"><span><i></i> DIGITAL TWIN</span><small>ENCRYPTED CHANNEL</small></div>
+      <div class="avatar-stage">
+        <div class="avatar-halo"></div>
+        <div class="avatar-grid"></div>
+        <img src="nikhilesh-photo.png" alt="Nikhilesh">
+        <span class="target t1">AWS</span><span class="target t2">DEVOPS</span><span class="target t3">AI</span>
+      </div>
+      <div class="console-log" id="consoleLog">
+        <p><b>&gt;</b> Initializing Nikhilesh knowledge interface...</p>
+        <p><b>&gt;</b> Cloud stack detected: AWS / Docker / Kubernetes / Terraform</p>
+        <p><b>&gt;</b> Status: <strong>READY TO TALK</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact"><label>04 / CONNECTION</label><h2>Let's build<br><em>something real.</em></h2><div><a href="mailto:nikhilesh8249@gmail.com">EMAIL ↗</a><a href="https://www.linkedin.com/in/nikhilesh-padhy-99" target="_blank">LINKEDIN ↗</a><a href="https://github.com/Nikhileshpadhy20" target="_blank">GITHUB ↗</a><a href="resume.pdf">RESUME ↓</a></div></section>
+<aside id="ai"><header><b>● NIKHILESH AI <small style="color:#4dff9a">GPT AGENT</small></b><button id="close">×</button></header><div class="aiuser"><img src="nikhilesh-photo.png"><span>DIGITAL TWIN<br><small id="state">ONLINE / READY</small></span></div><div class="bars" id="bars">▁▃▆▃▁</div><p id="bubble">Hey! 👋 I'm Nikhilesh's digital assistant.<br><small>Ask about education, skills, projects or contact.</small></p><div class="quick"><button data-q="about">ABOUT</button><button data-q="skills">SKILLS</button><button data-q="projects">PROJECTS</button><button data-q="contact">CONTACT</button></div><div class="input"><input id="input" placeholder="Ask me anything — not just portfolio topics..."><button id="mic">🎙</button><button id="send">➤</button></div></aside>
+<div id="modal"><div></div><article><button id="mx">×</button><small id="mno"></small><h2 id="mt"></h2><p id="md"></p><p id="tags"></p><button class="primary" id="mspeak">🔊 EXPLAIN WITH VOICE</button></article></div>
+<script src="app.js"></script></body></html>
